@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SsisSample", "SsisSample\SsisSample.dtproj", "{CE85071A-3EF5-4B03-8182-C6861773866E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsisSample.Tests", "SsisSample.Tests\SsisSample.Tests.csproj", "{9E4A5008-E9DD-4210-9769-345CCCEC6433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Debug|Any CPU.ActiveCfg = Development
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Debug|Any CPU.Build.0 = Development
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Development|Any CPU.ActiveCfg = Development
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Development|Any CPU.Build.0 = Development
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Release|Any CPU.ActiveCfg = Development
+		{CE85071A-3EF5-4B03-8182-C6861773866E}.Release|Any CPU.Build.0 = Development
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4A5008-E9DD-4210-9769-345CCCEC6433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F95ECEE5-721E-4FA4-B6C8-DB6515849B9C}
+	EndGlobalSection
+EndGlobal

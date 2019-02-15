@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParameterSet isServerIntegrationFile="False">
+  <Parameters>
+    <Parameter name="IspacFileLocation" type="System.String" value="C:\Deploy\SsisSample.ispac" />
+    <Parameter name="PackageFileLocation" type="System.String" value="C:\Deploy\EmptyPackage.dtsx" />
+  </Parameters>
+  <Mappings />
+</ParameterSet>

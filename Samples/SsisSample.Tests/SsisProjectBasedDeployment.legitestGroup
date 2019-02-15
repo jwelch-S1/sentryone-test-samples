@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSuite targetFramework="NUnit" failOnServerPublishFailure="False" revision="7" pushRevisionToAssembly="False" lastAssetContentPath="SsisProjectBasedDeployment_Assets" name="SsisProjectBasedDeployment" uniqueId="6b801d75-7762-4065-818d-4bd461ca90d0" isEnabled="True">
+  <Assets>
+    <TestAssetCollection>
+      <TestAssets />
+    </TestAssetCollection>
+  </Assets>
+  <TestGroups>
+    <TestGroup conditionFlag="" name="SsisProjectBasedDeployment" uniqueId="f1ee1265-4312-45c5-8409-6308ec3b8b4a" isEnabled="True">
+      <CoverageTargets />
+      <Annotations />
+      <Assets>
+        <TestAssetCollection>
+          <TestAssets />
+        </TestAssetCollection>
+      </Assets>
+      <GroupInitializationSteps />
+      <TestInitializationSteps />
+      <Tests>
+        <Test conditionFlag="" MaxDegreeOfParallelism="0" name="RunPackage" uniqueId="62271cfa-805a-4036-b077-a3a014b6cc47" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets>
+                <TestAsset uniqueTypeId="26e81368-4878-41e7-9e87-989f43655f92" groupId="86c8e739-9c25-47e8-8c2c-2b4bea68ab56" name="ispacEmptyPackage" uniqueId="56af6c9f-ada0-49d8-89aa-b741b9c7b300" isEnabled="True" source="File" originalItemPath="{{IspacFileLocation}}" LastRefreshed="2019-02-14T22:09:27.4147261Z" PackageName="EmptyPackage.dtsx">
+                  <Value>
+                    <FileSystemObject fullPath="EmptyPackage.dtsx" packageProtectionLevel="Unknown" password="" name="EmptyPackage.dtsx" size="0" type="File" dateCreated="0001-01-01T00:00:00.0000000Z" dateModified="0001-01-01T00:00:00.0000000Z" connectionString="" originalSource="C:\Users\Administrator\source\repos\SentryOneTestSamples\SsisSample\bin\Development\SsisSample.ispac" location="CompiledProject" sqlServerVersion="Sql2016" />
+                  </Value>
+                  <Structure>H4sIAAAAAAAEAKVXbW/bNhCutmJ9SZqgTTB03QawRYFuQKTKL3HsrmvhWvZqwHlZ7bYf1qFgJNpmK5EaSbkxhv2x/bqdKMp2umhWOyMxLPCeu4d3x4cna7MbxWp+gv33eEKsq2/yXw8OqS+45GPlDP8Ih0TMiHA8JZ0XCVM0Io4xvJR+foJ/61ZnSvz3MadM9WhIjnBErCv3X+EwIY+sG8O5VCRyhkpQNvnykvlY20vQS6kZGIS7gByfviO+WkI2O4JgRTnzsCLWt8a++rBSf1h1Ky3UeFSFvwN0cmhtGxep5QhIX+BE07xtnCz3nKehiPeOxnPR4VGcKCK0m6+Nm9f9I7t/1Bg875/0WoeVQicbxokG378Y/KYdRJRRqURqWZxHj4R4Dh5ooLdlbRp3PRxKYm0Z2DPOQ4LZCgWPSF/QWGPWVmsTrOmEdWeEKWk9yJvFORE8JkJRIn9btfjd0f4KK7mbGaeVWXqw/r5saDx+ehaFCPpOArmf71Uc997TJ9cf37Xt0ZRK1PHaozaS4BGWkc+ZwpRJpKYEQSp4ohBlYy4inQ/Ex3olNozRCB5yLGV+mAREngPIxJ8iLNEPZ3vzH8E9FwFl0EdyD32ggZruIcwCNCV0MlWObWfE+mMEkVGEWYLDcI5IQBXEBbZ5rBQU4fcEYRRBVeHXnob4mKGAhEQRRJWDcoejJWcIG4ZIqvT7FPCnIUGKo5DjALGUdhrwNFHZPgWZUZ7Ii1LxwXgIuVSaTwoIdCmIyFZxonhq7WungthYCMyAQ2oKLKO0vAh8LaGQMDHGPslykZVaXkfoVV6/5r0n8JhuqoshtYwHBFiE/EMW0hQQmOedAM6xQgEHU+A5HoNDJDL1AeAUwwZFFu2hCfeksHOveFSmGSt7LnaNvW7k55CkELZRFrzlJVGcHyw4tGvPlQYcszabd4UAQFmSXZZy7HA2ppNE6OqWJnk9A6eRrQ0DGYnkPxC3uswX81gtJbt0sJvdM+InWrQNzxWh3zSoPlO16oqkLTAviExCVeJqWEKGCqtELiCVYg3qYRoaHTtm6UMiSnfJTgYW0COfjN3tceGTYME4k8r1e8xwH+fmmsHZxTvdOQ/M4pUk+0Xfs2xj+met2qp0mg3XbtR7Vbt+0KnYrfZB1fbanUbTq7ntSsP7q7DX7/QnoFYfNe0xG4CMlWWzDZ1CBAZBnZFDkJHSXdiXHhljyNeAg7IR2FTZE92XPNRUB2RGQmsr7yu33tw/aBS18J0BlgoY0jElAVxxQeIro4fWTu5i33Edt+W6Tt0tTNrVBeGNReRarSjsxoBPJoDXuVnfUVvG/DjOBOQbgzDmb9/CkJNhCl3cPsRnUFE/EelZyHosVRe52pgFbG8ClkZJpKWvw0HgV45tAeayHpnyFJ4bYQuHrePxOKTskxpm1zjt6bszr1zOrlmoXAaWFk1rHTIIuNvSvJ0j7ARKnhWyzhmcCLjsqJp3QixliZpuGNxoHi9bYL/Q/KtMxKy7F4102dq6YW4bECobcrIzsl577w/xmLyAXoG8ztIRMF02BBY6VVoUhnhGPuNqujb8ddDjYUDEgvGbwnJcg3tFqHRgtb7714tHxX3ktta+eVwdKh7/Lw/fD5MY5jspz2noaywYcC1/JY9gopNYFyw7+SUqduNlDO8XxIxbZUMZVH5Cy00bN19hQfWEQmVMmIT6fIYwbZpD+yyhYbBeV7aNOTjWI+760W3DIH55uXpFHvSalfZ+u2X3qm7Lrj+rVuGK7NZtz6u0arUDt1lzm8VXZE76EL/jYj3phTllK+ZFc9U/dGEwCPIPAAA=</Structure>
+                </TestAsset>
+              </TestAssets>
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps>
+            <TestStepAction uniqueTypeId="9836d268-627a-473e-89eb-413fa0b74b34" name="Load Package" uniqueId="83b00f0e-80ad-46d6-bfa0-6102d12c3b44" isEnabled="True">
+              <LoadPackageAction>
+                <!-- The package reference asset containing the details of the package to load -->
+                <PackageReferenceAssetUniqueId value="56af6c9f-ada0-49d8-89aa-b741b9c7b300" />
+                <!-- The key to give to the package placed in the test resources -->
+                <TargetResourceKey value="EmptyPkgRef" />
+              </LoadPackageAction>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestStepAction>
+          </InitializationSteps>
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="19c2c2ee-390d-4f9d-befb-b37af2ec655e" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="7609238b-aef6-4bb8-9eba-2b2f2575ab25" name="Execute Package from ISPAC" uniqueId="e66342c6-c062-4f5c-a6f9-7f9eb58c0dc8" isEnabled="True">
+                  <ExecutePackageAction>
+                    <!-- The package loaded for execution -->
+                    <PackageHolderKey value="EmptyPkgRef" />
+                    <!-- The key to give to the result of the package placed in the test resources -->
+                    <TargetResourceKey value="EmptyPkgResult" />
+                    <!-- True if the test should fail if the package does not execute -->
+                    <FailOnPackageFailure value="True" />
+                  </ExecutePackageAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions>
+            <TestAssertion uniqueTypeId="f20b8a0b-8fb0-427c-b922-74125c8840b3" name="Check for Success" uniqueId="61b8f948-1b79-4609-ab4b-021e566201d7" isEnabled="True">
+              <ValueComparison>
+                <!-- The resource key that holds the actual value to compare -->
+                <ActualResourceKey value="EmptyPkgResult" />
+                <!-- The expected value to compare -->
+                <ExpectedValue value="true" />
+                <!-- The comparer data in use with the comparer -->
+                <ComparerData value="" />
+                <!-- The name of the data type to use for comparison -->
+                <DataTypeName value="System.Boolean" />
+                <!-- The type of equality to satisfy the comparison. -->
+                <ComparisonType value="ExactValue" />
+              </ValueComparison>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestAssertion>
+          </Assertions>
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="00000000-0000-0000-0000-000000000000" isEnabled="False">
+              <Columns />
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+      </Tests>
+      <TestTeardownSteps />
+      <GroupTeardownSteps />
+    </TestGroup>
+  </TestGroups>
+  <ParameterSet isServerIntegrationFile="False">
+    <Parameters />
+    <Mappings>
+      <Mapping parameterName="IspacFileLocation" targetElementId="56af6c9f-ada0-49d8-89aa-b741b9c7b300" targetPropertyName="OriginalItemPath" />
+    </Mappings>
+  </ParameterSet>
+  <AnnotationTypes>
+    <AnnotationType typeName="LegiTest.UserErrorMessage" description="User Error Message" />
+    <AnnotationType typeName="LegiTest.Description" description="Description" />
+    <AnnotationType typeName="LegiTest.ResolutionSteps" description="Resolution Steps" />
+  </AnnotationTypes>
+</TestSuite>

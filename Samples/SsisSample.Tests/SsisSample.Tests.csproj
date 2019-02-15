@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E4A5008-E9DD-4210-9769-345CCCEC6433}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LegiTestProject1</RootNamespace>
+    <AssemblyName>LegiTestProject1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DotLiquid, Version=1.8.0.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotLiquid.1.8.0\lib\NET45\DotLiquid.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.DimensionValidation, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.DimensionValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.FileHandling, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.FileHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Office, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Rest, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Sql, Version=6.0.11.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.Common.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Contracts.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.Contracts.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.DataComparison, Version=2019.1.1.201, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.DataComparison.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Runtime, Version=2019.1.1.201, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Ssis.Runtime, Version=2019.1.1.201, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Ssis.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.Ssis.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Ssis2016.Runtime, Version=2019.1.1.201, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Ssis2016.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.Ssis2016.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.TestResults.Models, Version=2019.1.1.201, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.1.1.201\lib\net40\PragmaticWorks.LegiTest.TestResults.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SsisFileBasedDeployment_Output\Resources.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SsisFileBasedDeployment_Output\SsisFileBasedDeployment.cs" />
+    <Compile Include="SsisFileBasedDeployment_Output\SsisFileBasedDeployment.Generated.cs">
+      <DependentUpon>SsisFileBasedDeployment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SsisProjectBasedDeployment_Output\Resources.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SsisProjectBasedDeployment_Output\SsisProjectBasedDeployment.cs" />
+    <Compile Include="SsisProjectBasedDeployment_Output\SsisProjectBasedDeployment.Generated.cs">
+      <DependentUpon>SsisProjectBasedDeployment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestAssemblyInformation.cs" />
+    <Content Include="SsisFileBasedDeployment.legitestGroup" />
+    <None Include="packages.config" />
+    <None Include="Parameters.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ProjectSettings.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SsisFileBasedDeployment_Output\SsisFileBasedDeployment.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SsisProjectBasedDeployment.legitestGroup" />
+    <None Include="SsisProjectBasedDeployment_Output\SsisProjectBasedDeployment.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SsisFileBasedDeployment_Assets\" />
+    <Folder Include="SsisProjectBasedDeployment_Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SsisFileBasedDeployment_Output\Resources.resx" />
+    <EmbeddedResource Include="SsisProjectBasedDeployment_Output\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

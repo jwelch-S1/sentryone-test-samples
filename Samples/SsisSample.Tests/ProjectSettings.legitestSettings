@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParameterSet isServerIntegrationFile="True" frameworkType="NUnit3">
+  <Parameters />
+  <Mappings />
+</ParameterSet>

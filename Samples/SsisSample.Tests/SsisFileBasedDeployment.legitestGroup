@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSuite targetFramework="NUnit" failOnServerPublishFailure="False" revision="13" pushRevisionToAssembly="False" lastAssetContentPath="SsisFileBasedDeployment_Assets" name="SsisFileBasedDeployment" uniqueId="16db26af-28f6-4959-ace5-786b48a985d4" isEnabled="True">
+  <Assets>
+    <TestAssetCollection>
+      <TestAssets />
+    </TestAssetCollection>
+  </Assets>
+  <TestGroups>
+    <TestGroup conditionFlag="" name="SsisFileBasedDeployment" uniqueId="303e2924-4bbd-4640-86da-bd24967aad36" isEnabled="True">
+      <CoverageTargets />
+      <Annotations />
+      <Assets>
+        <TestAssetCollection>
+          <TestAssets>
+            <TestAsset uniqueTypeId="26e81368-4878-41e7-9e87-989f43655f92" groupId="86c8e739-9c25-47e8-8c2c-2b4bea68ab56" name="EmptyPackage" uniqueId="56af6c9f-ada0-49d8-89aa-b741b9c7b300" isEnabled="True" source="File" originalItemPath="{{PackageFileLocation}}" LastRefreshed="2019-02-14T19:48:50.2513717Z" PackageName="EmptyPackage.dtsx">
+              <Value>
+                <FileSystemObject fullPath="C:\Users\Administrator\source\repos\SentryOneTestSamples\SsisSample\EmptyPackage.dtsx" packageProtectionLevel="EncryptSensitiveWithUserKey" password="" name="EmptyPackage.dtsx" size="0" type="File" dateCreated="2019-02-14T19:48:50.0203707Z" dateModified="2019-02-14T19:48:50.0203707Z" connectionString="" originalSource="C:\Users\Administrator\source\repos\SentryOneTestSamples\SsisSample\EmptyPackage.dtsx" location="FileSystem" sqlServerVersion="Sql2016" />
+              </Value>
+              <Structure>H4sIAAAAAAAEAKVX/W/TRhjGGxofLa2g1cSYJh0IiSHVxvloPjoGCvkYkVLSkRR+WCZ0tc/JgX3n3Z1Do2n/2P66vbbPSYpqYljURon8Pu/73Pvx3BtjuxuEanGCnQ94Sozrk+zTo2PqCC65p6zRX/6IiDkRVkdJ63XEFA2IpQ2vxK9f4N+4054R50PIKVM96pNXOCDGtYdvsB+RI+PWaCEVCayREpRNv72iX8buCnQqEwYaYS8hw7P3xFEryHZbEKwoZx2siPGjti8/KVWflO1SE9WOyvBXRyfHxq52EVuOgfQlThKad7WT1ZmzNOTx3kvwXLR5EEaKiMTN99rN2/4rs/+qNnjZP+k1j0u5Tra0kwT88HLwpOUGlFGpRGyZn8cO8fECPFA3OZaxrd31sC+JsaNhLzj3CWZrFDpEOoKGCWZjtbbBmk5Zd06YksajrFmsE8FDIhQl8o91iz+txF9uJfdT47gyKw/Gv1c1jafPzwMfQd9JIPfrg5JlP3j+7ObT+6Y5nlGJ2p3WuIUkeITHyOFMYcokUjOCIBU8Uogyj4sgyQfiXvIk1IzRGL5kWMocP3KJvACQkTNDWKKfzw8Wj8E9Fy5l0EfyAH2krpodIMxcNCN0OlOWaabE+h6CyCjALMK+v0DEpQriAtssVgwK8AeCMAqgqvDpIIE4mCGX+EQRRJWFMofjFWcI6/tIqvj9DPBnPkGKI59jF7GYdhzwLFLpOQWZUx7Jy1LxUXvwuVQJnxjgJqUgIn2KI8VjaydxKoiJhcAMOMSmwDKIy4vA1woKCRMedkiai7TU8iZCb7L6NR48g6/xoboYUsu4S4CFzz+mIXUBgXnWCeAcK+RyMAWengcOkUjVB4AzDAcUabQnOtyz3M691qEyzljRudjX9kkjv4Qk+XCMouCdThSE2WDB0G6cqwQwZC226AoBgKIkuyzm2ObMo9NIJNUtTPJmCo4jG1saMhbRZxB3uswRi1CtJLtwsNvdc+JEiWhrnmtCv61RfaYq5TVJW2JeExn5qsDVsIKMFFaRXEJK+RrUw9TXOjZk8ZdIFO6SvRQsoEe+GLvf48Ih7pJxKpWbz5jiPs3NDY0z80+6dxGYxitI9pt+xzC16d+VcrPUbtRss1btlc1qvV0ym6162ey02rVGp2K3SrXOP7m9fq8/BbX6pGmHbAAyVpTNLnQKERgEdU6OQUYKd2FfdoiHIV8DDspG4FBFJ7ovuZ9QHZA58Y2drK/sauOwXstr4XsDLBUwpB4lLlxxbuQorYfGXubi0LItu2nbVtXOTdr1JeGtZeRKJS/s1oBPp4BPcrO5o3a0+TBMBeQHjdDm797BkpNicl3cPcbnUFEnEvEspD0Wq4tcb8wctrcBS4MoSKSvzUHg18Y2B3M1WZmyFF5YYXOXraHn+ZR9UcPsa6e95O7MKpexa+Qql4bFRUu0DmuEB3vxUftocirB1cXNbiJ5BOM5ESTkcjKCLIrFkJExkWqEgxBSORlJKtPPk/UTW66S57nHzo5wIuC2pGrR9rGUBZpiS+PGi3DVQ4e55t+lKmjcv2wnTJ9t2gZ3AaHSLSkdss3i/XCEPfIamg0KM493yPixJrAUusKqMsJz8hV3243R74Me910ilownueW4AReTUPHGe8kvl/pRtXF0aH/+l8v1keLh/3Hw0ygKYT2U8oIEv8WCAdPiN/oYFkKJk3KlwlGgXrdOQ/h5QvS2VjSURmUDXmxZuf0GC5osOFSGhMHAfY2ubeuZfxFR390sS7vaHBwnG/LmzW9LI347Xb9h671GqXXYapq9st00qy/KZbhhu1Wz0yk1K5W63ajYjfwbNiN9jN9zsZn00pyyNfO8tew/W8E6lzEQAAA=</Structure>
+            </TestAsset>
+          </TestAssets>
+        </TestAssetCollection>
+      </Assets>
+      <GroupInitializationSteps />
+      <TestInitializationSteps />
+      <Tests>
+        <Test conditionFlag="" MaxDegreeOfParallelism="0" name="RunPackage" uniqueId="452f8682-7529-406f-a676-7a6718a48050" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets />
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps>
+            <TestStepAction uniqueTypeId="9836d268-627a-473e-89eb-413fa0b74b34" name="Load Package" uniqueId="83b00f0e-80ad-46d6-bfa0-6102d12c3b44" isEnabled="True">
+              <LoadPackageAction>
+                <!-- The package reference asset containing the details of the package to load -->
+                <PackageReferenceAssetUniqueId value="56af6c9f-ada0-49d8-89aa-b741b9c7b300" />
+                <!-- The key to give to the package placed in the test resources -->
+                <TargetResourceKey value="EmptyPkgRef" />
+              </LoadPackageAction>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestStepAction>
+          </InitializationSteps>
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="eb09d80d-bf23-4fc1-853b-e0d6e10e6c7b" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="7609238b-aef6-4bb8-9eba-2b2f2575ab25" name="Execute Package from File System" uniqueId="e66342c6-c062-4f5c-a6f9-7f9eb58c0dc8" isEnabled="True">
+                  <ExecutePackageAction>
+                    <!-- The package loaded for execution -->
+                    <PackageHolderKey value="EmptyPkgRef" />
+                    <!-- The key to give to the result of the package placed in the test resources -->
+                    <TargetResourceKey value="EmptyPkgResult" />
+                    <!-- True if the test should fail if the package does not execute -->
+                    <FailOnPackageFailure value="True" />
+                  </ExecutePackageAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions>
+            <TestAssertion uniqueTypeId="f20b8a0b-8fb0-427c-b922-74125c8840b3" name="Check for Success" uniqueId="61b8f948-1b79-4609-ab4b-021e566201d7" isEnabled="True">
+              <ValueComparison>
+                <!-- The resource key that holds the actual value to compare -->
+                <ActualResourceKey value="EmptyPkgResult" />
+                <!-- The expected value to compare -->
+                <ExpectedValue value="true" />
+                <!-- The comparer data in use with the comparer -->
+                <ComparerData value="" />
+                <!-- The name of the data type to use for comparison -->
+                <DataTypeName value="System.Boolean" />
+                <!-- The type of equality to satisfy the comparison. -->
+                <ComparisonType value="ExactValue" />
+              </ValueComparison>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestAssertion>
+          </Assertions>
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="00000000-0000-0000-0000-000000000000" isEnabled="False">
+              <Columns />
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+      </Tests>
+      <TestTeardownSteps />
+      <GroupTeardownSteps />
+    </TestGroup>
+  </TestGroups>
+  <ParameterSet isServerIntegrationFile="False">
+    <Parameters />
+    <Mappings>
+      <Mapping parameterName="PackageFileLocation" targetElementId="56af6c9f-ada0-49d8-89aa-b741b9c7b300" targetPropertyName="FullPath" />
+    </Mappings>
+  </ParameterSet>
+  <AnnotationTypes>
+    <AnnotationType typeName="LegiTest.UserErrorMessage" description="User Error Message" />
+    <AnnotationType typeName="LegiTest.Description" description="Description" />
+    <AnnotationType typeName="LegiTest.ResolutionSteps" description="Resolution Steps" />
+  </AnnotationTypes>
+</TestSuite>
