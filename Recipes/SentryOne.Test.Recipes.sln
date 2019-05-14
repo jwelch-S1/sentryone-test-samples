@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentryOne.Test.Recipes.Samples", "SentryOne.Test.Recipes.Samples\SentryOne.Test.Recipes.Samples.csproj", "{45745198-FCB0-4E70-9459-DF860B829969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBF5674D-DF7C-48CC-B063-705C21E90005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45745198-FCB0-4E70-9459-DF860B829969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45745198-FCB0-4E70-9459-DF860B829969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45745198-FCB0-4E70-9459-DF860B829969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45745198-FCB0-4E70-9459-DF860B829969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDDFA9B7-C01C-42EF-B12F-62E4F60196D4}
+	EndGlobalSection
+EndGlobal
