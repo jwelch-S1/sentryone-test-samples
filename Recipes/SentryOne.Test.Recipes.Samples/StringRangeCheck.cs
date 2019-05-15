@@ -73,7 +73,7 @@
 
         public override IRecipe Create()
         {
-            return new RangeCheck();
+            return new StringRangeCheck();
         }
 
         public override bool ValidateIngredients(IIngredients ingredients, out IEnumerable<string> errors)
