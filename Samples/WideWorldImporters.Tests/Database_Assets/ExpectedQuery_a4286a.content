@@ -1,0 +1,4 @@
+uselect PersonID, fullname
+from application.people
+where isemployee = 1
+and validto = '9999-12-31 23:59:59.9999999'

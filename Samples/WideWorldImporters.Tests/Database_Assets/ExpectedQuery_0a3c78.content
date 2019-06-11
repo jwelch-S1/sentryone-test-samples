@@ -1,0 +1,5 @@
+tSELECT   orderid,
+         sum(quantity * unitprice) AS total
+FROM     [Sales].[OrderLines]
+GROUP BY orderid;
+

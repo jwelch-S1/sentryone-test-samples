@@ -1,0 +1,1 @@
+oSELECT [InvoiceID], COUNT(*) AS DuplicateCount FROM [Sales].[Invoices] GROUP BY [InvoiceID] HAVING COUNT(*) > 1

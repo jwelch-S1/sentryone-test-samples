@@ -7,12 +7,13 @@
   DTS:CreatorName="WIN-IN6LHIPF9M1\Administrator"
   DTS:DTSID="{3291C860-64F2-47C1-9A72-DAC68D30A16D}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.0900.40"
+  DTS:LastModifiedProductVersion="15.0.1300.375"
   DTS:LocaleID="1033"
   DTS:ObjectName="EmptyPackage"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{7F81A5A9-F209-4B22-9AE4-DD1933708308}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{848BB835-C108-4CB5-B4C5-2580390B28E6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />

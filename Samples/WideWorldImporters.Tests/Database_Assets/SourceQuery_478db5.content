@@ -1,0 +1,1 @@
+xSELECT [Outstanding Balance] FROM [Fact].[Transaction] WHERE [Outstanding Balance] > 500000 OR [Outstanding Balance] < 0

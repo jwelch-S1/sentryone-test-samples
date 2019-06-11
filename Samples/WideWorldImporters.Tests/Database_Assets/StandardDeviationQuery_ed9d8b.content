@@ -1,0 +1,1 @@
+°SELECT [ColdRoomSensorNumber], STDEV([Temperature]) AS StandardDeviation FROM [Warehouse].[ColdRoomTemperatures] GROUP BY [ColdRoomSensorNumber] HAVING STDEV([Temperature]) > 1

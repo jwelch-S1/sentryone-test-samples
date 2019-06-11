@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="False" revision="3" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
+  <Assets>
+    <TestAssetCollection>
+      <TestAssets />
+    </TestAssetCollection>
+  </Assets>
+  <TestGroups>
+    <TestGroup conditionFlag="" name="DataDriven" uniqueId="98221a43-9f31-4da4-ac08-a147228a6e8f" isEnabled="True">
+      <CoverageTargets />
+      <Annotations />
+      <Assets>
+        <TestAssetCollection>
+          <TestAssets>
+            <TestAsset uniqueTypeId="b65aa4f7-d205-4e4d-99d6-d372ff879ec1" groupId="7a048987-3a13-4e0e-846f-8c973cf02ebf" name="TablesForRowCountComparison" uniqueId="8f85ac9f-740b-45b8-9326-c911edf0fb90" isEnabled="True" />
+          </TestAssets>
+        </TestAssetCollection>
+      </Assets>
+      <GroupInitializationSteps />
+      <TestInitializationSteps />
+      <Tests>
+        <Test conditionFlag="" MaxDegreeOfParallelism="0" name="Comparison Test" uniqueId="6066c5b3-22a6-45ec-9e8a-9c55e03218d6" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Expected Query" uniqueId="23079563-0c2d-4ec5-9aa4-88b016a72657" isEnabled="True">
+                  <Value>SELECT
+	'{{CommonTableName}}' AS TableName, 
+	COUNT(*) AS RecordCount 
+FROM {{LeftTableName}} </Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Actual Query" uniqueId="270ed289-b1ec-49af-ba87-670be1c472d4" isEnabled="True">
+                  <Value>SELECT 
+	'{{CommonTableName}}' AS TableName, 
+	COUNT(*) - 1 AS RecordCount
+FROM {{RightTableName}}
+WHERE GETDATE() BETWEEN [Valid From] AND [Valid To]</Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="Comparison Manifest" uniqueId="ee6bb741-0c01-4fc4-a6a7-a86387aef848" isEnabled="True" leftGridProvider="7fb6fb7e-ed5b-4a4e-a87a-5b58fc787e6c" rightGridProvider="50f9fae2-76c2-46d8-8d98-e5a410279bb3">
+                  <LeftColumns>
+                    <Column index="0" columnName="TableName" typeName="System.String" />
+                    <Column index="1" columnName="RecordCount" typeName="System.Int32" />
+                  </LeftColumns>
+                  <RightColumns>
+                    <Column index="0" columnName="TableName" typeName="System.String" />
+                    <Column index="1" columnName="RecordCount" typeName="System.Int32" />
+                  </RightColumns>
+                </TestAsset>
+              </TestAssets>
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps />
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="7a7427a9-b55e-4829-ab7e-b9a96b7395dd" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Expected Query" uniqueId="07e67b4a-49b0-4eb1-9223-c3cab2463577" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="23079563-0c2d-4ec5-9aa4-88b016a72657" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="41e6c714-19f7-453c-bf0c-35f50ab94707" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_LeftQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+            <ExecutionTrack name="Track 2" uniqueId="7454b990-04d0-4b1c-abc1-320233a5e939" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Actual Query" uniqueId="b3227034-6455-4489-92ec-62cb4d8aa5a2" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="270ed289-b1ec-49af-ba87-670be1c472d4" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="9e990a18-f179-475e-9a24-eca7ef66ba76" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_RightQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions>
+            <TestAssertion uniqueTypeId="3f5c501a-2e36-46e8-a6f7-ec623798a515" name="Compare Grids" uniqueId="b5ffd87a-74c4-47e0-b089-a491c1b67b3d" isEnabled="True">
+              <GridComparison>
+                <!-- The grid that contains the expected results used by the grid comparison -->
+                <LeftGridResourceKey value="SqlTest_LeftQuery" />
+                <!-- The grid that contains the actual results used by the grid comparison -->
+                <RightGridResourceKey value="SqlTest_RightQuery" />
+                <!-- The comparison manifest specifying how to compare the grids -->
+                <ManifestAssetUniqueId value="ee6bb741-0c01-4fc4-a6a7-a86387aef848" />
+                <!-- True if the rows only appearing in the expected grid should be ignored -->
+                <IgnoreLeftOnlyRows value="False" />
+                <!-- True if the rows only appearing in the actual grid should be ignored -->
+                <IgnoreRightOnlyRows value="False" />
+                <!-- True if the rows that differ should be ignored -->
+                <IgnoreDifferentRows value="False" />
+                <!-- True if the aggregated comparisons should be ignored -->
+                <IgnoreAggregates value="False" />
+                <!-- True if equal rows should be included in the difference log sent to the server -->
+                <IncludeEqualRows value="False" />
+                <!-- The maximum number of differences to send to SentryOne Test -->
+                <DifferenceLogRowLimit value="200" />
+                <!-- The number of rows which were different that will included in the test runner message on failure. -->
+                <TestOutputMessageRowLimit value="10" />
+              </GridComparison>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestAssertion>
+          </Assertions>
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="8f85ac9f-740b-45b8-9326-c911edf0fb90" isEnabled="True" grid="AQAAAAMAAAABAAAAAQAAAFpTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkAAAAAD0NvbW1vblRhYmxlTmFtZQZTdHJpbmcBAAAAWlN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQEAAAANTGVmdFRhYmxlTmFtZQZTdHJpbmcBAAAAWlN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQIAAAAOUmlnaHRUYWJsZU5hbWUGU3RyaW5nAQ9UcmFuc2FjdGlvblR5cGUBHEFwcGxpY2F0aW9uLlRyYW5zYWN0aW9uVHlwZXMBHERpbWVuc2lvbi5bVHJhbnNhY3Rpb24gVHlwZV0AAAAA">
+              <Columns>
+                <Column index="0" columnName="CommonTableName" typeName="System.String" />
+                <Column index="1" columnName="LeftTableName" typeName="System.String" />
+                <Column index="2" columnName="RightTableName" typeName="System.String" />
+              </Columns>
+              <Action>
+                <TestStepAction uniqueTypeId="b4146e02-9e24-41e4-821a-39d1d5c53631" name="Load Flat File Data" uniqueId="b65d0bd3-24fb-4572-a694-9330cf32beb6" isEnabled="True">
+                  <DelimitedFileLoadAction>
+                    <!-- The file reference or content specifying the data to load -->
+                    <FileReferenceAssetUniqueId value="a63c55e0-98b8-4483-99a5-611520ccb240" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="TargetResource" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The filter specification used to filter the grid -->
+                    <FilterExpression value="" />
+                    <!-- The columns to exclude -->
+                    <ExcludedColumns value="" />
+                  </DelimitedFileLoadAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Action>
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+      </Tests>
+      <TestTeardownSteps />
+      <GroupTeardownSteps />
+    </TestGroup>
+  </TestGroups>
+  <ParameterSet isServerIntegrationFile="False">
+    <Parameters />
+    <Mappings />
+  </ParameterSet>
+  <AnnotationTypes>
+    <AnnotationType typeName="LegiTest.UserErrorMessage" description="User Error Message" />
+    <AnnotationType typeName="LegiTest.Description" description="Description" />
+    <AnnotationType typeName="LegiTest.ResolutionSteps" description="Resolution Steps" />
+  </AnnotationTypes>
+</TestSuite>

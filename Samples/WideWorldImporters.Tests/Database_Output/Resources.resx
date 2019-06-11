@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TestResource_Query_32b90a4b2fed4a29ad31e69a47f661cf" xml:space="preserve">
+    <value>SELECT SpecialDealID, DiscountPercentage, P.FULLNAME
+FROM Sales.SpecialDeals s
+INNER JOIN Application.People P 
+ON S.LastEditedBy = P.PersonID</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TestResource_ValidationManifest_88f1cc585d884547a3f3014e7efc3129" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAEAAAABAAAAAQAAAAgAAAAAW1N5c3RlbS5EZWNpbWFsLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAu
+        MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkBCgAAAAAA
+        AAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_fe97b35901e54552901f962b112aabe0" xml:space="preserve">
+    <value>select PersonID, fullname
+from application.people
+where isemployee = 1
+and validto = '9999-12-31 23:59:59.9999999'</value>
+  </data>
+  <data name="TestResource_DelimitedFileReference_7b9bdd937aa84a52b3a435253bfe1ecd" type="System.Byte[], mscorlib">
+    <value>
+        cvx+EQMAAAAsJwEAAAAAAQV1dGYtOAEAASpDOlxEZW1vc1xMZWdpVGVzdFxFbXBsb3llZUJlbmVmaXRz
+        RmlsZS5jc3YCopQCAgAAAAIAAAAIUGVyc29uSUQBSFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIEN1bHR1
+        cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQgAAABHU3lzdGVtLkJ5dGUs
+        IG1zY29ybGliLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODlI
+        U3lzdGVtLkludDMyLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdh
+        NWM1NjE5MzRlMDg5SFN5c3RlbS5JbnQxNiwgbXNjb3JsaWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGlj
+        S2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OUhTeXN0ZW0uSW50NjQsIG1zY29ybGliLCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODlJU3lzdGVtLkRvdWJsZSwgbXNjb3Js
+        aWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OUpTeXN0ZW0u
+        RGVjaW1hbCwgbXNjb3JsaWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYx
+        OTM0ZTA4OUlTeXN0ZW0uU2luZ2xlLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlU
+        b2tlbj1iNzdhNWM1NjE5MzRlMDg5SVN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBDdWx0dXJlPW5ldXRy
+        YWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkZAAAACGZ1bGxuYW1lAUlTeXN0ZW0uU3Ry
+        aW5nLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRl
+        MDg5AQAAAElTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlU
+        b2tlbj1iNzdhNWM1NjE5MzRlMDg5GQAAAAAA
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_6d0324245572438c9d276c2827655cd4" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAIAAAACAAAAAgAAAAAAAAAACFBlcnNvbklEAgAAAAAAAAAACFBlcnNvbklEAgAAAAIAAAAAAAAA
+        AAhQZXJzb25JRAIAAAAAAAAAAAhQZXJzb25JRAEAAAACAAAAAQAAAAEAAAABAAAAAAhmdWxsbmFtZQhm
+        dWxsbmFtZQAAAAA=
+</value>
+  </data>
+  <data name="TestResource_Query_2d600ff1ee0a46c99a293e130e141fee" xml:space="preserve">
+    <value>select StockItemID, QuantityOnHand, laststocktakequantity
+from [Warehouse].[StockItemHoldings]
+where abs(((QuantityOnHand - laststocktakequantity)/laststocktakequantity)) &gt; .05</value>
+  </data>
+  <data name="TestResource_ValidationManifest_f0ff97a3657a40c69043fa8b85dbf7c3" type="System.Byte[], mscorlib">
+    <value>AgAAAAAAAAAAAAAAAQ==</value>
+  </data>
+  <data name="TestResource_Emptysetvalidationmanifest_f5321a5eb9b8422782bf2b194ebe676f" type="System.Byte[], mscorlib">
+    <value>AgAAAAAAAAAAAAAAAQ==</value>
+  </data>
+  <data name="TestResource_StandardDeviationQuery_c5e05ae3eeb8448cb05f8e5e9ff50e98" xml:space="preserve">
+    <value>SELECT [ColdRoomSensorNumber], STDEV([Temperature]) AS StandardDeviation FROM [Warehouse].[ColdRoomTemperatures] GROUP BY [ColdRoomSensorNumber] HAVING STDEV([Temperature]) &gt; 1</value>
+  </data>
+  <data name="TestResource_Emptysetvalidationmanifest_3b48b94dcd56482cbbe6ab0158afc977" type="System.Byte[], mscorlib">
+    <value>AgAAAAAAAAAAAAAAAQ==</value>
+  </data>
+  <data name="TestResource_SourceQuery_a9bc0891684343aebcbcad8afe48885d" xml:space="preserve">
+    <value>SELECT [Outstanding Balance] FROM [Fact].[Transaction] WHERE [Outstanding Balance] &gt; 500000 OR [Outstanding Balance] &lt; 0</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_1fb338e8d4544b1ea7b1d14b11d89773" xml:space="preserve">
+    <value>SELECT   orderid,
+         sum(quantity * unitprice) AS total
+FROM     [Sales].[OrderLines]
+GROUP BY orderid;
+
+</value>
+  </data>
+  <data name="TestResource_ActualQuery_d56234835d054017ac601fb9a407b5e5" xml:space="preserve">
+    <value>SELECT   [WWI Order ID],
+         sum([total excluding tax]) AS total
+FROM     [Fact].[Order]
+GROUP BY [WWI Order ID];
+
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_668e24ea32a9454ab6b2c01b78bb4c4d" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAEAAAACAAAAAgAAAAAAAAAAB29yZGVyaWQCAAAAAAAAAAAMV1dJIE9yZGVyIElEAQAAAAIAAAAB
+        AAAAAQAAAAEAAAAABXRvdGFsBXRvdGFsAAAAAA==
+</value>
+  </data>
+  <data name="TestResource_Emptysetvalidationmanifest_cf1cbc41adca4e3395058bb06c33a311" type="System.Byte[], mscorlib">
+    <value>AgAAAAAAAAAAAAAAAQ==</value>
+  </data>
+  <data name="TestResource_SourceQuery_acbe73c08028489ba4b1f63d28e9b706" xml:space="preserve">
+    <value>SELECT [InvoiceID], COUNT(*) AS DuplicateCount FROM [Sales].[Invoices] GROUP BY [InvoiceID] HAVING COUNT(*) &gt; 1</value>
+  </data>
+  <data name="TestResource_SourceQuery_ce90f3f781e746e29089d6a7932e31ef" xml:space="preserve">
+    <value>SELECT '[Application].[PaymentMethods]' AS TableName, COUNT(*) AS NumberOfRows FROM [Application].[PaymentMethods] 
+</value>
+  </data>
+  <data name="TestResource_TargetQuery_c7e08fdf7c034e2c90b7b4e20f5164dd" xml:space="preserve">
+    <value>SELECT '[Dimension].[Payment Method]' AS TableName, COUNT(*) AS NumberOfRows FROM [Dimension].[Payment Method] WHERE ([Valid To] = '9999-12-31 23:59:59.9999999' AND [Lineage Key] = 4)
+</value>
+  </data>
+  <data name="TestResource_RowCount_76b5b2839cd34ecaa4da15b049a0076a" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAEAAAACAAAAAgAAAAAAAAAACVRhYmxlTmFtZQIAAAAAAAAAAAlUYWJsZU5hbWUBAAAAAgAAAAEA
+        AAABAAAAAQAAAAAIUm93Q291bnQIUm93Q291bnQAAAAA
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_274f0b9ecb7f464fb1825527161680f3" xml:space="preserve">
+    <value>SELECT 
+	--TOP 10
+	o.[OrderID], 
+	o.[OrderDate], 
+	SUM([ol].[Quantity]) AS Quantity, 
+	SUM([ol].[UnitPrice] * ol.[Quantity] * ([TaxRate]/100+1)) AS Total
+	--, o.* 
+FROM 
+	[Sales].[Orders] o
+		INNER JOIN
+	[Sales].[OrderLines] ol ON [ol].[OrderID] = [o].[OrderID]
+GROUP BY [o].[OrderID], [o].[OrderDate]
+ORDER BY [OrderID]</value>
+  </data>
+  <data name="TestResource_ActualQuery_a216bdcaec644562b721ec41cb7b46f1" xml:space="preserve">
+    <value>SELECT   --TOP 10 
+CAST ([WWI Order ID] AS INT) AS OrderId,
+         [Order Date Key],
+         SUM([Quantity]) AS Quantity,
+         SUM([Total Including Tax]) AS Total
+--, * 
+FROM     [Fact].[Order]
+GROUP BY [WWI Order ID], [Order Date Key]
+ORDER BY [WWI Order ID];
+
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_5f1cc400840145d7b1aeecca58f58db9" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAEAAAACAAAAAgAAAAAAAAAAB09yZGVySUQCAAAAAAAAAAAHT3JkZXJJZAMAAAACAAAAAQAAAAEA
+        AAABAAAAAAlPcmRlckRhdGUOT3JkZXIgRGF0ZSBLZXkCAAAAAgAAAAIAAAABAAAAAAhRdWFudGl0eQhR
+        dWFudGl0eQIAAAADAAAAAwAAAAIAAAAnPENvbXBhcmVyRGF0YSBmaXhlZFRvbGVyYW5jZT0iMC4wMDUi
+        IC8+BVRvdGFsBVRvdGFsAAAAAA==
+</value>
+  </data>
+  <data name="TestResource_DelimitedFileReference_92bf42bfceec41f1ae6ba3c41332417a" type="System.Byte[], mscorlib">
+    <value>
+        cvx+EQMAAAAsIgEAAAAAAQV1dGYtOAEAASpDOlxEZW1vc1xMZWdpVGVzdFxFbXBsb3llZUJlbmVmaXRz
+        RmlsZS5jc3YCopQCAgAAAAIAAAAIUGVyc29uSUQBSFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIEN1bHR1
+        cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQgAAABHU3lzdGVtLkJ5dGUs
+        IG1zY29ybGliLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODlI
+        U3lzdGVtLkludDMyLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdh
+        NWM1NjE5MzRlMDg5SFN5c3RlbS5JbnQxNiwgbXNjb3JsaWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGlj
+        S2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OUhTeXN0ZW0uSW50NjQsIG1zY29ybGliLCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODlJU3lzdGVtLkRvdWJsZSwgbXNjb3Js
+        aWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OUpTeXN0ZW0u
+        RGVjaW1hbCwgbXNjb3JsaWIsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYx
+        OTM0ZTA4OUlTeXN0ZW0uU2luZ2xlLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlU
+        b2tlbj1iNzdhNWM1NjE5MzRlMDg5SVN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBDdWx0dXJlPW5ldXRy
+        YWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkZAAAACGZ1bGxuYW1lAUlTeXN0ZW0uU3Ry
+        aW5nLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRl
+        MDg5AQAAAElTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlU
+        b2tlbj1iNzdhNWM1NjE5MzRlMDg5GQAAAAAA
+</value>
+  </data>
+  <data name="TestResource_WideWorldImporters_41e6c71419f7453cbf0c35f50ab94707" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEABXKMQ7CMAxA0eQQ7DlBL4AypQwdkZE6W4lVLLk1OM7Q21PGr/cLzI8YQog3OLvTPs3o
+        OMFXijAdHp//TqDDKmXRivLW7vflYGeUVC4V3fLKjVY1acv+UXOyfi1Om6FTS0B1GPuZXzboB+WNp1Fy
+        AAAA
+</value>
+  </data>
+  <data name="TestResource_WideWorldImportersDW_9e990a18f179475e9a24eca7ef66ba76" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEABXKMQ7DIAxAUThEd06QC1RM0CGzKzEjsFJLTtwaM+T2Scev9xPkl3fO+Qecw3BfcrW6
+        wI8TEx7m4d8BZGrDyNIqf2TYcz3IqHJIt7JssVDHIsp93b+ihjpyuSfDTathD4BtKtkZ3zrxAiXEn1x0
+        AAAA
+</value>
+  </data>
+  <data name="TestManifest_Database_4c0460d4c9d141b4b38fbddf1d5649f9" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="False" testSuiteId="5dd051a5-2258-40cf-802f-020b0d134d71" testSuiteName="Database" testGroupId="4c0460d4-c9d1-41b4-b38f-bddf1d5649f9" testGroupName="Database" isSingleGroupMode="True"&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="5" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="ComparisonTest" testName="Comparison Test" testUniqueId="6caaacfd-401d-4dbc-8bab-e66380c2b84a" /&gt;&lt;MethodAssociation methodName="DataQualityOrderAmountOLTPvsDW" testName="Data Quality Order Amount OLTP vs DW" testUniqueId="d2ee1415-fc7e-46cf-8b8c-d5648f801591" /&gt;&lt;MethodAssociation methodName="FIleContent" testName="FIle Content" testUniqueId="83158c0a-3fde-4dc4-b061-e982a8485c13" /&gt;&lt;MethodAssociation methodName="FinancialsCheckUniqueInvoiceID" testName="Financials Check Unique Invoice ID" testUniqueId="c78007f2-c1bb-4878-b2dc-1ae60577d413" /&gt;&lt;MethodAssociation methodName="FinancialsOutstandingBalancesbetween0and500K" testName="Financials Outstanding Balances between 0 and 500K" testUniqueId="1babb952-f1a7-4095-93aa-828c93d2b963" /&gt;&lt;MethodAssociation methodName="HRDatabasevsEmployeeBenefitFile" testName="HR Database vs Employee Benefit File" testUniqueId="a7620b1f-006c-4fb3-a41e-ab237d7e3c23" /&gt;&lt;MethodAssociation methodName="OperationsStocktakesMorethan5PercentOffFromOnHandQuantities" testName="Operations Stocktakes More than 5 Percent Off From OnHandQuantities" testUniqueId="82a0c92f-961a-4cbf-9d4a-1252426241a2" /&gt;&lt;MethodAssociation methodName="RowCountComparison" testName="Row Count Comparison" testUniqueId="e2797ada-6296-4e99-8b52-1318a010ad77" /&gt;&lt;MethodAssociation methodName="SalesValidateDiscountsLessThan10Percent" testName="Sales Validate Discounts Less Than 10 Percent" testUniqueId="acbe647e-7f93-4add-b9ce-83eb9008912f" /&gt;&lt;MethodAssociation methodName="WarehouseColdRoomTemperaturesOutsideof1Std" testName="Warehouse Cold Room Temperatures Outside of 1 Std" testUniqueId="fb70fdba-4ddf-4f24-b87d-c03cdd179b5d" /&gt;&lt;/MethodAssociations&gt;&lt;Annotations&gt;&lt;AnnotationItem uniqueId="acbe647e-7f93-4add-b9ce-83eb9008912f"&gt;&lt;Annotations&gt;&lt;Annotation content="This test returns any special deals where a discount of more than 10 percent has been entered in to the WWI database, along with the name of the last editor."&gt;&lt;AnnotationType typeName="LegiTest.Description" description="Description" /&gt;&lt;/Annotation&gt;&lt;/Annotations&gt;&lt;/AnnotationItem&gt;&lt;AnnotationItem uniqueId="a7620b1f-006c-4fb3-a41e-ab237d7e3c23"&gt;&lt;Annotations&gt;&lt;Annotation content="This test runs a query to gather all employees from the Application.Person table, and ensures that they appear on the EmployeeBenefits.csv file that will go to insurance carriers.&amp;#xD;&amp;#xA;"&gt;&lt;AnnotationType typeName="LegiTest.Description" description="Description" /&gt;&lt;/Annotation&gt;&lt;/Annotations&gt;&lt;/AnnotationItem&gt;&lt;/Annotations&gt;&lt;/TestManifest&gt;</value>
+  </data>
+</root>

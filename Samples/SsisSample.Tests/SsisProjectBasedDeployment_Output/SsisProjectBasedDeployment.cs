@@ -1,4 +1,4 @@
-namespace LegiTestProject1.SsisProjectBasedDeployment_Output
+namespace SsisSample.Tests.SsisProjectBasedDeployment_Output
 {
     using System.Collections.Generic;
     

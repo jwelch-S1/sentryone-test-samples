@@ -1,0 +1,5 @@
+}SELECT   [WWI Order ID],
+         sum([total excluding tax]) AS total
+FROM     [Fact].[Order]
+GROUP BY [WWI Order ID];
+

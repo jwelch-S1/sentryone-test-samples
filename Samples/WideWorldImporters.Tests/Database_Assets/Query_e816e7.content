@@ -1,0 +1,4 @@
+‘SELECT SpecialDealID, DiscountPercentage, P.FULLNAME
+FROM Sales.SpecialDeals s
+INNER JOIN Application.People P 
+ON S.LastEditedBy = P.PersonID

@@ -1,0 +1,3 @@
+²select StockItemID, QuantityOnHand, laststocktakequantity
+from [Warehouse].[StockItemHoldings]
+where abs(((QuantityOnHand - laststocktakequantity)/laststocktakequantity)) > .05
