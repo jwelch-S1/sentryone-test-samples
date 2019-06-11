@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParameterSet isServerIntegrationFile="False" applicableTestSuiteId="d5acb37e-d4a5-4223-aac2-4b51eecf7137">
+  <Parameters>
+    <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="True" />
+  </Parameters>
+  <Mappings />
+</ParameterSet>

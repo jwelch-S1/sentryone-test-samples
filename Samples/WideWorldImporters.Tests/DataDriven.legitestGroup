@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="False" revision="3" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="4" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -157,7 +157,9 @@ WHERE GETDATE() BETWEEN [Valid From] AND [Valid To]</Value>
     </TestGroup>
   </TestGroups>
   <ParameterSet isServerIntegrationFile="False">
-    <Parameters />
+    <Parameters>
+      <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="True" />
+    </Parameters>
     <Mappings />
   </ParameterSet>
   <AnnotationTypes>

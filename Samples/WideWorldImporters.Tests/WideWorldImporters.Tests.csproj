@@ -142,8 +142,14 @@
     <None Include="Database_Assets\TargetQuery_8ce5cd.content" />
     <None Include="Database_Assets\ValidationManifest_51591b.content" />
     <None Include="Database_Assets\ValidationManifest_5b26a2.content" />
+    <None Include="Database_Output\Database.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="DataDriven_Assets\ComparisonManifest_58c47a.content" />
     <None Include="DataDriven_Assets\TablesForRowCountComparison_81d9f2.content" />
+    <None Include="DataDriven_Output\DataDriven.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Parameters.legitestSettings">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

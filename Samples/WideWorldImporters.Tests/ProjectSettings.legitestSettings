@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="True" frameworkType="NUnit3">
-  <Parameters />
+  <Parameters>
+    <Parameter name="LegiTestServerUrl" type="System.String" value="http://localhost:44320" />
+  </Parameters>
   <Mappings />
 </ParameterSet>

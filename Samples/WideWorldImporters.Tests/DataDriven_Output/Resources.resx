@@ -170,6 +170,6 @@ WHERE GETDATE() BETWEEN [Valid From] AND [Valid To]</value>
 </value>
   </data>
   <data name="TestManifest_DataDriven_98221a439f314da4ac08a147228a6e8f" xml:space="preserve">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="False" testSuiteId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" testSuiteName="DataDriven" testGroupId="98221a43-9f31-4da4-ac08-a147228a6e8f" testGroupName="DataDriven" isSingleGroupMode="True"&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="3" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="ComparisonTest" testName="Comparison Test" testUniqueId="6066c5b3-22a6-45ec-9e8a-9c55e03218d6" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="True" testSuiteId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" testSuiteName="DataDriven" testGroupId="98221a43-9f31-4da4-ac08-a147228a6e8f" testGroupName="DataDriven" isSingleGroupMode="True" publishUrl="http://localhost:44320"&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="4" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="ComparisonTest" testName="Comparison Test" testUniqueId="6066c5b3-22a6-45ec-9e8a-9c55e03218d6" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
   </data>
 </root>

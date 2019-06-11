@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="False" revision="5" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="6" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -929,7 +929,9 @@ ORDER BY [WWI Order ID];
     </TestGroup>
   </TestGroups>
   <ParameterSet isServerIntegrationFile="False">
-    <Parameters />
+    <Parameters>
+      <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="True" />
+    </Parameters>
     <Mappings />
   </ParameterSet>
   <AnnotationTypes>
