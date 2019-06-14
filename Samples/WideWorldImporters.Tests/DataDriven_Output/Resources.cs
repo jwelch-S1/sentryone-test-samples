@@ -69,7 +69,7 @@ namespace WideWorldImporters.Tests.DataDriven_Output
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;TestManifest failOnServerPublishFailureExpression=&quot;True&quot; testSuiteId=&quot;d5acb37e-d4a5-4223-aac2-4b51eecf7137&quot; testSuiteName=&quot;DataDriven&quot; testGroupId=&quot;98221a43-9f31-4da4-ac08-a147228a6e8f&quot; testGroupName=&quot;DataDriven&quot; isSingleGroupMode=&quot;True&quot; publishUrl=&quot;http://localhost:44320&quot;&gt;&lt;Keys&gt;&lt;Key key=&quot;TestSuiteRevision&quot; value=&quot;4&quot; /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName=&quot;ComparisonTest&quot; testName=&quot;Comparison Test&quot; testUniqueId=&quot;6066c5b3-22a6-45ec-9e8a-9c55e03218d6 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;TestManifest failOnServerPublishFailureExpression=&quot;True&quot; testSuiteId=&quot;d5acb37e-d4a5-4223-aac2-4b51eecf7137&quot; testSuiteName=&quot;DataDriven&quot; testGroupId=&quot;98221a43-9f31-4da4-ac08-a147228a6e8f&quot; testGroupName=&quot;DataDriven&quot; isSingleGroupMode=&quot;True&quot; publishUrl=&quot;http://localhost:44320&quot;&gt;&lt;Keys&gt;&lt;Key key=&quot;TestSuiteRevision&quot; value=&quot;6&quot; /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName=&quot;ComparisonTest&quot; testName=&quot;Comparison Test&quot; testUniqueId=&quot;6066c5b3-22a6-45ec-9e8a-9c55e03218d6 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TestManifest_DataDriven_98221a439f314da4ac08a147228a6e8f
         {

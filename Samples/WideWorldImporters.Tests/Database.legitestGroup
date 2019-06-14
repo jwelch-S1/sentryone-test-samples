@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="6" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="11" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -31,10 +31,12 @@
                   <Value>SELECT SpecialDealID, DiscountPercentage, P.FULLNAME
 FROM Sales.SpecialDeals s
 INNER JOIN Application.People P 
-ON S.LastEditedBy = P.PersonID</Value>
+ON S.LastEditedBy = P.PersonID
+
+</Value>
                 </TestAsset>
                 <TestAsset uniqueTypeId="0ffd210d-bc37-4822-aeef-3430a64bd0f1" groupId="e3d52a28-d1e0-49e1-958f-9cbebb89e6c1" name="Validation Manifest" uniqueId="88f1cc58-5d88-4547-a3f3-014e7efc3129" isEnabled="True">
-                  <GridProvider Id="f0b40048-ad76-41e2-9f91-6ebdc71d00a2" />
+                  <GridProvider Id="649fdca4-af76-4af7-8b76-520028122b76" />
                 </TestAsset>
               </TestAssets>
             </TestAssetCollection>

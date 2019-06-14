@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="4" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="6" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -135,7 +135,7 @@ WHERE GETDATE() BETWEEN [Valid From] AND [Valid To]</Value>
                 <TestStepAction uniqueTypeId="b4146e02-9e24-41e4-821a-39d1d5c53631" name="Load Flat File Data" uniqueId="b65d0bd3-24fb-4572-a694-9330cf32beb6" isEnabled="True">
                   <DelimitedFileLoadAction>
                     <!-- The file reference or content specifying the data to load -->
-                    <FileReferenceAssetUniqueId value="a63c55e0-98b8-4483-99a5-611520ccb240" />
+                    <FileReferenceAssetUniqueId value="8f85ac9f-740b-45b8-9326-c911edf0fb90" />
                     <!-- The key to give to the grid placed in the test resources -->
                     <TargetResourceKey value="TargetResource" />
                     <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
