@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DD4365B-247E-4B66-8FDE-AF471543098F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SsasTabularSample.Tests</RootNamespace>
+    <AssemblyName>SsasTabularSample.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DotLiquid, Version=1.8.0.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotLiquid.1.8.0\lib\NET45\DotLiquid.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.DimensionValidation, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.DimensionValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.FileHandling, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.FileHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Office, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Rest, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.Common.Sql, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Contracts.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.Contracts.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.DataComparison, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.DataComparison.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.Runtime, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PragmaticWorks.LegiTest.TestResults.Models, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
+      <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.TestResults.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Measures_Output\Measures.cs" />
+    <Compile Include="Measures_Output\Measures.Generated.cs">
+      <DependentUpon>Measures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measures_Output\Resources.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestAssemblyInformation.cs" />
+    <Content Include="Measures.legitestGroup" />
+    <None Include="AdventureWorks Internet Sales.asset" />
+    <None Include="AdventureWorks Internet Sales.content">
+      <DependentUpon>AdventureWorks Internet Sales.asset</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Parameters.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ProjectSettings.legitestSettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Measures_Output\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Measures_Assets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
