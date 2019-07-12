@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="False">
-  <Parameters />
+  <Parameters>
+    <Parameter name="AdventureWorksTabular" type="System.String" value="Provider=MSOLAP.8;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=&quot;Adventure Works Internet Sales&quot;" />
+  </Parameters>
   <Mappings />
 </ParameterSet>

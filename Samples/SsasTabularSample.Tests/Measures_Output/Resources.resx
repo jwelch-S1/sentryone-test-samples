@@ -130,9 +130,8 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TestResource_AdventureWorksInternetSales_aa032db7d7bb44bd9d63c5c7effa1bef" type="System.Byte[], mscorlib">
     <value>
-        H4sIAAAAAAAEABXLQQrDIBAAwPiE/kDyAM+F4CHEHgItEfbQs9UllVql6xrI75uch5nA3ETXdeICe2X8
-        KuPYqSWheYmfpbLFgKQfsNxHq67DqRJKI486Fe/Su1Qe5sy4kmMMEtA3irxrADsfEDm6JKejpbLqfgwb
-        Zm6E8lnoU+U5KSNLcAlr/wfKJi9gjgAAAA==
+        H4sIAAAAAAAEAHMOdnFlZGBgYBQMriwuSc3Vc0ksSdTzz0l1SWKUrK52TClLzSspLUoNzy/KLg5JTCrN
+        SSyqrQUAukFj9DYAAAA=
 </value>
   </data>
   <data name="TestManifest_Measures_ba4d7b121e2846b098de25985bf04323" xml:space="preserve">

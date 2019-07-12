@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="False">
-  <Parameters />
+  <Parameters>
+    <Parameter name="WideWorldImportersConn" type="System.String" value="Data Source=localhost;Initial Catalog=WideWorldImporters;Integrated Security=True" />
+    <Parameter name="WideWorldImportersDWConn" type="System.String" value="Data Source=localhost;Initial Catalog=WideWorldImportersDW;Integrated Security=True" />
+  </Parameters>
   <Mappings />
 </ParameterSet>
