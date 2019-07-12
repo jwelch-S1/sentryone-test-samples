@@ -38,66 +38,94 @@
   <ItemGroup>
     <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DotLiquid, Version=1.8.0.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
       <HintPath>..\packages\DotLiquid.1.8.0\lib\NET45\DotLiquid.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common.DimensionValidation, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.DimensionValidation.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common.FileHandling, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.FileHandling.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common.Office, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Office.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common.Rest, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Rest.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.Common.Sql, Version=6.0.13.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.Common.Sql.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.LegiTest.Contracts.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.Contracts.Runtime.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.LegiTest.DataComparison, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.DataComparison.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.LegiTest.Runtime, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.Runtime.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PragmaticWorks.LegiTest.TestResults.Models, Version=2019.2.1.516, Culture=neutral, PublicKeyToken=32c100312cbb7208, processorArchitecture=MSIL">
       <HintPath>..\packages\PragmaticWorks.LegiTest.Runtime.2019.2.1.516\lib\net40\PragmaticWorks.LegiTest.TestResults.Models.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.IdentityModel" />
-    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Measures_Output\Measures.cs" />
