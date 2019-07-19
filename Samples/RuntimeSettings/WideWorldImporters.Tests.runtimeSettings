@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="False">
   <Parameters>
-    <Parameter name="WideWorldImportersConn" type="System.String" value="" />
-    <Parameter name="WideWorldImportersDWConn" type="System.String" value="" />
+    <Parameter name="WideWorldImportersConn" type="System.String" value="{{WWIConn}}" />
+    <Parameter name="WideWorldImportersDWConn" type="System.String" value="{{WWIDWConn}}" />
     <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="False" />
   </Parameters>
   <Mappings />
