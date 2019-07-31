@@ -419,10 +419,6 @@ namespace WideWorldImporters.Tests.Database_Output
                     connection.ConnectionString = parameterProvider.GetTypedParameter<string>(new Guid("41e6c714-19f7-453c-bf0c-35f50ab94707"), "ConnectionString", connection.ConnectionString);
                     connection.ProviderInvariantName = parameterProvider.GetTypedParameter<string>(new Guid("41e6c714-19f7-453c-bf0c-35f50ab94707"), "ProviderInvariantName", connection.ProviderInvariantName);
                     // Read asset Query
-
-                    Console.WriteLine($"Connection string = {connection.ConnectionString}");
-                    Console.WriteLine($"Provider name = {connection.ProviderInvariantName}");
-
                     string query = parameterProvider.GetTypedParameter<string>(new Guid("32b90a4b-2fed-4a29-ad31-e69a47f661cf"), "Value", Resources.TestResource_Query_32b90a4b2fed4a29ad31e69a47f661cf);
                     GridCollection gridCollection = GridCollectionLoader.LoadGrid(connection.ProviderInvariantName, connection.ConnectionString, query, false, parameterProvider.GetTypedParameter<int>(new Guid("649fdca4-af76-4af7-8b76-520028122b76"), "Timeout", 30));
                     try
