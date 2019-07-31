@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="11" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="14" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -568,7 +568,7 @@ GROUP BY [WWI Order ID];
                   <Value>SELECT '[Dimension].[Payment Method]' AS TableName, COUNT(*) AS NumberOfRows FROM [Dimension].[Payment Method] WHERE ([Valid To] = '9999-12-31 23:59:59.9999999' AND [Lineage Key] = 4)
 </Value>
                 </TestAsset>
-                <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="RowCount" uniqueId="76b5b283-9cd3-4eca-a4da-15b049a0076a" isEnabled="True" leftGridProvider="07c07809-f2c4-4072-be19-5cbbcc376743" rightGridProvider="503ab46b-a2a1-48ba-8ae1-413590d8f868">
+                <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="RowCount" uniqueId="76b5b283-9cd3-4eca-a4da-15b049a0076a" isEnabled="True" leftGridProvider="887c8dfe-4fd6-46a1-922e-f637ecea8b4a" rightGridProvider="8b0b0730-4b0d-4e33-8dbe-c02efb9b76d5">
                   <LeftColumns>
                     <Column index="0" columnName="TableName" typeName="System.String" />
                     <Column index="1" columnName="NumberOfRows" typeName="System.Int32" />

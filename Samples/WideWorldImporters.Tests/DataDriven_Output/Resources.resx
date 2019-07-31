@@ -157,19 +157,17 @@ WHERE GETDATE() BETWEEN [Valid From] AND [Valid To]</value>
   </data>
   <data name="TestResource_WideWorldImporters_41e6c71419f7453cbf0c35f50ab94707" type="System.Byte[], mscorlib">
     <value>
-        H4sIAAAAAAAEABXKMQ7CMAxA0eQQ7DlBL4AypQwdkZE6W4lVLLk1OM7Q21PGr/cLzI8YQog3OLvTPs3o
-        OMFXijAdHp//TqDDKmXRivLW7vflYGeUVC4V3fLKjVY1acv+UXOyfi1Om6FTS0B1GPuZXzboB+WNp1Fy
-        AAAA
+        H4sIAAAAAAAEAHMOdnFlZGBgYBQNriwuSc3Vc0ksSdQLLsxxzslMzSthlKquDs9MSQ3PL8pJ8cwtyC8q
+        SS0qds7Py6utBQByiRWbOwAAAA==
 </value>
   </data>
   <data name="TestResource_WideWorldImportersDW_9e990a18f179475e9a24eca7ef66ba76" type="System.Byte[], mscorlib">
     <value>
-        H4sIAAAAAAAEABXKMQ7DIAxAUThEd06QC1RM0CGzKzEjsFJLTtwaM+T2Scev9xPkl3fO+Qecw3BfcrW6
-        wI8TEx7m4d8BZGrDyNIqf2TYcz3IqHJIt7JssVDHIsp93b+ihjpyuSfDTathD4BtKtkZ3zrxAiXEn1x0
-        AAAA
+        H4sIAAAAAAAEAHMOdnFlZGBgYBQNriwuSc3Vc0ksSdQLLsxxzslMzSthlKmuDs9MSQ3PL8pJ8cwtyC8q
+        SS0qdgl3zs/Lq60FAJVLJ6Y9AAAA
 </value>
   </data>
   <data name="TestManifest_DataDriven_98221a439f314da4ac08a147228a6e8f" xml:space="preserve">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="True" testSuiteId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" testSuiteName="DataDriven" testGroupId="98221a43-9f31-4da4-ac08-a147228a6e8f" testGroupName="DataDriven" isSingleGroupMode="True" publishUrl="http://localhost:44320"&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="6" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="ComparisonTest" testName="Comparison Test" testUniqueId="6066c5b3-22a6-45ec-9e8a-9c55e03218d6" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="True" testSuiteId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" testSuiteName="DataDriven" testGroupId="98221a43-9f31-4da4-ac08-a147228a6e8f" testGroupName="DataDriven" isSingleGroupMode="True" publishUrl="http://localhost:44320"&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="9" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="ComparisonTest" testName="Comparison Test" testUniqueId="6066c5b3-22a6-45ec-9e8a-9c55e03218d6" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
   </data>
 </root>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="6" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="9" pushRevisionToAssembly="False" lastAssetContentPath="DataDriven_Assets" name="DataDriven" uniqueId="d5acb37e-d4a5-4223-aac2-4b51eecf7137" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
