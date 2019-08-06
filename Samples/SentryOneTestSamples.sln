@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WideWorldImporters.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsasTabularSample.Tests", "SsasTabularSample.Tests\SsasTabularSample.Tests.csproj", "{8DD4365B-247E-4B66-8FDE-AF471543098F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9646C9BC-80AD-4809-95AE-03ACC6F0BC3F}"
+	ProjectSection(SolutionItems) = preProject
+		RuntimeSettings\TokenReplacement.ps1 = RuntimeSettings\TokenReplacement.ps1
+		RuntimeSettings\WideWorldImporters.Tests.runtimeSettings = RuntimeSettings\WideWorldImporters.Tests.runtimeSettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

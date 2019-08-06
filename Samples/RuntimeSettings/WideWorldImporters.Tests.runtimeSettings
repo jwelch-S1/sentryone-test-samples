@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="False">
   <Parameters>
+    <!-- Disable publish to SentryOne Test Server, as we don't want to do this every time we build for CI/CD -->
+    <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="False" />
+
     <Parameter name="WideWorldImportersConn" type="System.String" value="{{WWIConn}}" />
     <Parameter name="WideWorldImportersDWConn" type="System.String" value="{{WWIDWConn}}" />
-    <Parameter name="PublishResultsToLegiTestServer" type="System.Boolean" value="False" />
+    <Parameter name="EmployeeBenefitsFile" type="System.String" value="{{EmployeeBenefitsFile}}" />
+    <Parameter name="EmployeeBenefitsFileTarget" type="System.String" value="{{EmployeeBenefitsFileTarget}}" />
   </Parameters>
   <Mappings />
 </ParameterSet>
