@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="15" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
+<TestSuite targetFramework="MSTest" failOnServerPublishFailure="True" revision="17" pushRevisionToAssembly="False" lastAssetContentPath="Database_Assets" name="Database" uniqueId="5dd051a5-2258-40cf-802f-020b0d134d71" isEnabled="True">
   <Assets>
     <TestAssetCollection>
       <TestAssets />
@@ -103,7 +103,7 @@ from application.people
 where isemployee = 1
 and validto = '9999-12-31 23:59:59.9999999'</Value>
                 </TestAsset>
-                <TestAsset uniqueTypeId="80a04f55-a743-47ca-8230-779009cf1753" groupId="7a048987-3a13-4e0e-846f-8c973cf02ebf" name="Delimited File Reference" uniqueId="7b9bdd93-7aa8-4a52-b3a4-35253bfe1ecd" isEnabled="True" fileName="C:\Demos\LegiTest\EmployeeBenefitsFile.csv" />
+                <TestAsset uniqueTypeId="80a04f55-a743-47ca-8230-779009cf1753" groupId="7a048987-3a13-4e0e-846f-8c973cf02ebf" name="Delimited File Reference" uniqueId="7b9bdd93-7aa8-4a52-b3a4-35253bfe1ecd" isEnabled="True" fileName="{{EmployeeBenefitsFile}}" />
                 <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="Comparison Manifest" uniqueId="6d032424-5572-438c-9d27-6c2827655cd4" isEnabled="True" leftGridProvider="fd96130e-7c4b-45a6-8c3b-1e7c21dc2343" rightGridProvider="ed678a08-2319-4d37-be05-da569c95dbde">
                   <LeftColumns>
                     <Column index="0" columnName="PersonID" typeName="System.Int32" />
@@ -871,7 +871,7 @@ ORDER BY [WWI Order ID];
           <Assets>
             <TestAssetCollection>
               <TestAssets>
-                <TestAsset uniqueTypeId="80a04f55-a743-47ca-8230-779009cf1753" groupId="7a048987-3a13-4e0e-846f-8c973cf02ebf" name="Delimited File Reference" uniqueId="92bf42bf-ceec-41f1-ae6b-a3c41332417a" isEnabled="True" fileName="C:\Demos\LegiTest\EmployeeBenefitsFile.csv" />
+                <TestAsset uniqueTypeId="80a04f55-a743-47ca-8230-779009cf1753" groupId="7a048987-3a13-4e0e-846f-8c973cf02ebf" name="Delimited File Reference" uniqueId="92bf42bf-ceec-41f1-ae6b-a3c41332417a" isEnabled="True" fileName="{{EmployeeBenefitsFile}}" />
               </TestAssets>
             </TestAssetCollection>
           </Assets>
@@ -901,13 +901,13 @@ ORDER BY [WWI Order ID];
             <TestAssertion uniqueTypeId="f55522e6-58f3-4e4c-8762-dab08f2b4749" name="File Content Comparison" uniqueId="fcea3f57-d94d-4ac5-8115-07cf078aecf3" isEnabled="True">
               <FileContentComparison>
                 <!-- The name of the file to check -->
-                <Target value="C:\Demos\LegiTest\EmployeeBenefitsFile_extracolumn.csv" />
+                <Target value="{{EmployeeBenefitsFileTarget}}" />
                 <!-- The asset containing the content of the expected result (if using a test asset source) -->
                 <FileContentAssetUniqueId value="6cbfae5a-97dc-4a6f-9ee0-1a11aae3c3a3" />
                 <!-- Whether to use a file on disk or a test asset to compare against. -->
                 <ComparableFileSource value="File" />
                 <!-- The name of the file to compare with (if using a file source) -->
-                <ComparisonFile value="C:\Demos\LegiTest\EmployeeBenefitsFile.csv" />
+                <ComparisonFile value="{{EmployeeBenefitsFile}}" />
                 <!-- True if a case-insensitive comparison should be used -->
                 <IgnoreCase value="False" />
                 <!-- True if line ending style (CR+LF, CR, LF) should be ignored -->

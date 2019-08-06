@@ -1958,9 +1958,9 @@ namespace WideWorldImporters.Tests.Database_Output
             {
                 try
                 {
-                    string comparisonFileName = parameterProvider.GetTypedParameter<string>(new Guid("fcea3f57-d94d-4ac5-8115-07cf078aecf3"), "ComparisonFile", "C:\\Demos\\LegiTest\\EmployeeBenefitsFile.csv");
+                    string comparisonFileName = parameterProvider.GetTypedParameter<string>(new Guid("fcea3f57-d94d-4ac5-8115-07cf078aecf3"), "ComparisonFile", "{{EmployeeBenefitsFile}}");
                     string expectedContent = File.ReadAllText(comparisonFileName);
-                    string actualFileName = parameterProvider.GetTypedParameter<string>(new Guid("fcea3f57-d94d-4ac5-8115-07cf078aecf3"), "Target", "C:\\Demos\\LegiTest\\EmployeeBenefitsFile_extracolumn.csv");
+                    string actualFileName = parameterProvider.GetTypedParameter<string>(new Guid("fcea3f57-d94d-4ac5-8115-07cf078aecf3"), "Target", "{{EmployeeBenefitsFileTarget}}");
                     string actualContent = File.ReadAllText(actualFileName);
                     try
                     {

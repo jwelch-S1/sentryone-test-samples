@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="False">
   <Parameters>
+    <Parameter name="EmployeeBenefitsFile" type="System.String" value="C:\Demos\LegiTest\EmployeeBenefitsFile.csv" />
+    <Parameter name="EmployeeBenefitsFileTarget" type="System.String" value="C:\Demos\LegiTest\EmployeeBenefitsFile_extracolumn.csv" />
     <Parameter name="WideWorldImportersConn" type="System.String" value="Data Source=localhost;Initial Catalog=WideWorldImporters;Integrated Security=True" />
     <Parameter name="WideWorldImportersDWConn" type="System.String" value="Data Source=localhost;Initial Catalog=WideWorldImportersDW;Integrated Security=True" />
   </Parameters>
