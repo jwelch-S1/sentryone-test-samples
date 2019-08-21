@@ -43,7 +43,7 @@ steps:
      !**\*TestAdapter.dll
      !**\obj\**
      !**\packages\**
-    testFiltercriteria:
+    testFiltercriteria: 'Name!=OperationsStocktakesMorethan5PercentOffFromOnHandQuantities|Name!=FinancialsOutstandingBalancesbetween0and500K|Name!=RowCountComparison'
     vsTestVersion: toolsInstaller
     diagnosticsEnabled: true
 
