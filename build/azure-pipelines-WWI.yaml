@@ -1,0 +1,49 @@
+pool:
+  name: Azure Pipelines
+  vmImage: 'windows-2019'
+  demands:
+  - msbuild
+  - visualstudio
+
+#Your build pipeline references a secret variable named ‘WWIConn’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
+#Your build pipeline references a secret variable named ‘WWIDWConn’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
+variables:
+  EmployeeBenefitsFile: '$(Build.SourcesDirectory)\Samples\TestAssets\EmployeeBenefitsFile.csv'
+  EmployeeBenefitsFileTarget: '$(Build.SourcesDirectory)\Samples\TestAssets\EmployeeBenefitsFile_extracolumn.csv'
+
+steps:
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+  inputs:
+    restoreSolution: Samples/WideWorldImporters.sln
+
+- task: VisualStudioTestPlatformInstaller@1
+  displayName: 'Visual Studio Test Platform Installer'
+  inputs:
+    versionSelector: latestStable
+
+- task: VSBuild@1
+  displayName: 'Build Tests'
+  inputs:
+    solution: Samples/WideWorldImporters.Tests/WideWorldImporters.Tests.csproj
+    vsVersion: 16.0
+
+- task: PowerShell@2
+  displayName: 'Replace Tokens for Parameters'
+  inputs:
+    targetType: filePath
+    filePath: ./Samples/RuntimeSettings/TokenReplacement.ps1
+    arguments: '-sourceFile "$(Build.SourcesDirectory)\Samples\RuntimeSettings\WideWorldImporters.Tests.runtimeSettings" -targetFile "$(Build.SourcesDirectory)\Samples\WideWorldImporters.Tests\bin\Debug\WideWorldImporters.Tests.runtimeSettings" -replacementList ("{{WWIConn}}|$(WWIConn)","{{WWIDWConn}}|$(WWIDWConn)","{{EmployeeBenefitsFile}}|$(EmployeeBenefitsFile)","{{EmployeeBenefitsFileTarget}}|$(EmployeeBenefitsFileTarget)")'
+
+- task: VSTest@2
+  displayName: 'Run Tests'
+  inputs:
+    testAssemblyVer2: |
+     **\*test*.dll
+     !**\*TestAdapter.dll
+     !**\obj\**
+     !**\packages\**
+    testFiltercriteria:
+    vsTestVersion: toolsInstaller
+    diagnosticsEnabled: true
+
