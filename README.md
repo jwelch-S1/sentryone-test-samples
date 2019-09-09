@@ -18,7 +18,7 @@ This is a summary of the examples included in this repository.
 
 | Location | Description |
 | -------- | ----------- |
-| /Recipes | An example of defining a custom SentryOne Test Recipe that can be used for simpler test creation. |
+| /Recipes | An example of defining a custom [SentryOne Test Recipe](https://docs.sentryone.com/help/sentryone-test-extension-recipes) that can be used for automatically creating tests. |
 | /build   | Examples of Azure DevOps build pipelines that run tests from SentryOne Test assemblies. |
 | /Samples/SsasTabularSample.Tests | A SQL Server Analysis Services tabular model test example. |
 | /Samples/SsisSample.Tests | A SQL Server Integration Services example. |
